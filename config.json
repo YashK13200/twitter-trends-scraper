@@ -1,0 +1,7 @@
+{
+    "proxymesh_url": "http://USERNAME:PASSWORD@proxymesh.com:31280",
+    "chromedriver_path": "<path_to_chromedriver>",
+    "twitter_username": "<your_twitter_username>",
+    "twitter_password": "<your_twitter_password>",
+    "mongo_uri": "mongodb+srv://<username>:<password>@cluster.mongodb.net/test"
+}

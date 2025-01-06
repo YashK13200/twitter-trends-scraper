@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Twitter Trending Topics</title>
+</head>
+<body>
+    <h1>Twitter Trending Topics</h1>
+    <form action="/run-script">
+        <button type="submit">Click here to run the script</button>
+    </form>
+    {% if trends %}
+        <h2>These are the most happening topics as on {{ date_time }}</h2>
+        <ul>
+            {% for trend in trends %}
+                <li>{{ trend }}</li>
+            {% endfor %}
+        </ul>
+        <p>The IP address used for this query was {{ ip_address }}.</p>
+    {% endif %}
+</body>
+</html>
